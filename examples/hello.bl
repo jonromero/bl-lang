@@ -1,0 +1,37 @@
+// I L U!
+
+setA 104 // "h" | 3333, 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+//incA 73
+Once upon a time, there was a little star in a faaaaaaar away galaxy that all it wanted was a place to shine.
+
+//incA 19
+And it wasn't easy to find that place.
+
+
+//add 1 // 11111, 1
+So it decided to start creating that world, a world inside its own mind.
+
+p 1 // 111, 1
+
+
+// setA 73
+Once upon a not so long time ago , there was a little star in a faaaaaaar away galaxy that all it wanted was a place to shine. 
+// add 1
+And it aint that easy to find space in this crowded galaxy, right?
+// p 1
+So it decided to try out the following, create this world in its mind
+--------> I
+
+// setA 41
+This new idea, the idea of building a totally new and brave world
+// sub, 1
+wasn't a new idea at all! Many stars had tried but failed in the past, but this little star is determined to make it right!!
+// p 1
+"Just wait", the little star said
+--------> ' ' (space) 32
+
+// setA 30
+// sub, 1
+// p 1
+--------> 'heart' 2665
