@@ -1,12 +1,5 @@
 from vm import VM, put, step
-
-def main():
-	print "bl starting"
-	line = "Nothing"
-	while(line):
-		line = input()
-		tokenize_and_add(line, VM)
-		step(VM)
+import readline
 
 def tokenize_and_add(sentence, VM):
 	# search for delimiter
@@ -40,7 +33,16 @@ def find_delim_in_string(sentence):
 
 	return delim[0] if delim[0] in sentence else None
 
+if __name__ == '__main__':
+	readline.parse_and_bind('tab: complete')
+	while True:
+		line = raw_input('bl> ')
+		if line == 'exit':
+			break
+		tokenize_and_add(line, VM)
+		step(VM)
+
+
 	
-main()
 
 

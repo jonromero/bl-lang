@@ -15,7 +15,9 @@ VM = {"memory": [],
 		  4: {"name": "setA",
 			  "fun": lambda x: setA(x)},
 		  5: {"name": "add",
-			  "fun": lambda x: add(x)}}}
+			  "fun": lambda x: add(x)},
+		  6: {"name": "sub",
+			  "fun": lambda x: sub(x)}}}
 
 
 """
@@ -42,7 +44,7 @@ def nop(VM):
 
 def p(VM):
 	register = "B" if get(VM) % 2  else "C"
-	print "=>", VM["registers"][register]
+	print "=>", chr(VM["registers"][register])
 
 def setA(VM):
 	value = get(VM)
@@ -51,6 +53,10 @@ def setA(VM):
 def add(VM):
 	register = "B" if get(VM) % 2 else "C"
 	VM["registers"][register] += int(VM["registers"]["A"])
+
+def sub(VM):
+	register = "B" if get(VM) % 2 else "C"
+	VM["registers"][register] -= int(VM["registers"]["A"])
 
 def get(VM):
 	if len(VM["memory"]) > VM["pc"]:
@@ -67,8 +73,8 @@ def put(object_code, VM):
 
 def step(VM):
 	obj = get(VM)
-	fun = VM["fun_table"][obj%6]["fun"]
-	print "Function name =>", VM["fun_table"][obj%6]["name"]
+	fun = VM["fun_table"][obj%7]["fun"]
+	print "Function name =>", VM["fun_table"][obj%7]["name"]
 	fun(VM)
 	#show_debug()
 
