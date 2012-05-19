@@ -1,20 +1,3 @@
-// I L U!
-
-setA 104 // "h" | 3333, 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-
-//incA 73
-Once upon a time, there was a little star in a faaaaaaar away galaxy that all it wanted was a place to shine.
-
-//incA 19
-And it wasn't easy to find that place.
-
-
-//add 1 // 11111, 1
-So it decided to start creating that world, a world inside its own mind.
-
-p 1 // 111, 1
-
-
 // setA 73
 Once upon a not so long time ago , there was a little star in a faaaaaaar away galaxy that all it wanted was a place to shine. 
 // add 1
@@ -31,7 +14,72 @@ wasn't a new idea at all! Many stars had tried but failed in the past, but this 
 "Just wait", the little star said
 --------> ' ' (space) 32
 
-// setA 30
-// sub, 1
+// setA 38
+"I will make it work!", the little star shouted with all of its voice!
+// add 1
+"You will see", it said.
+// setA 38
+"I will make it work!", the little kept saying so everyone can listen
+// add 1 
+"You will see", it said again.
 // p 1
---------> 'heart' 2665
+and after that it fell asleep
+--------> 'l' 108
+
+// setA 3
+On the other side of the galaxy, far
+// add 1 
+faaaaaar away, from the little star
+// p 1
+another little star was waiting for its place, a place to become greater
+--------> 'o' 111
+
+
+// setA 7
+This tiny second star, thought
+// add 1 
+that it will be awesome, if it could find another star to be together
+// p 1
+but this was not easy.
+Not easy at all!
+--------> 'v' 118
+
+
+// setA 17
+that it would be great, it thought once more
+// sub 1 
+"but I have to use magic to do this, right?"
+// p 1
+"So magic it will be!", it said
+--------> 'e' 101
+
+// setA 23
+ "i wish for somebody", the little star thought...
+// sub, 1
+"please make it happen", the little one said...
+// setA 23
+ "i wish for somebody", the little star thought...
+// sub, 1
+"please make it happen", the little one said...
+// setA 23
+ "i wish for somebody", the little star thought...
+// sub, 1
+"please make it happen", the little one said...
+// p 1
+"So magic it will be!", it said
+--------> ' ' (space) 32
+
+// setA 79
+that tiny little star, knew that it was meant to be together with another star that wasnt really different than itself
+// add 1 
+all it had to do, was to find the magic spell to say
+// p 1
+and that spell is...
+as you already know
+--------> 'u' 111
+
+
+// setA 1
+// add 2
+// jnzdc N
+-----> call this

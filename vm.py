@@ -75,8 +75,9 @@ def step(VM):
 	obj = get(VM)
 	fun = VM["fun_table"][obj%7]["fun"]
 	print "Function name =>", VM["fun_table"][obj%7]["name"]
+	#print "Line:", VM["pc"]
 	fun(VM)
-	#show_debug()
+	show_debug()
 
 def show_debug():
 	print "\n--- DEBUG ---"

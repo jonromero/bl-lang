@@ -35,13 +35,16 @@ def find_delim_in_string(sentence):
 
 if __name__ == '__main__':
 	readline.parse_and_bind('tab: complete')
-	while True:
-		line = raw_input('bl> ')
-		if line == 'exit':
-			break
+	#while True:
+		#line = raw_input('bl> ')
+	f = open("examples/hello_raw.bl", "rb")
+	
+	lines = f.readlines()
+	for line in lines:
 		tokenize_and_add(line, VM)
 		step(VM)
-
+		
+	f.close()
 
 	
 
